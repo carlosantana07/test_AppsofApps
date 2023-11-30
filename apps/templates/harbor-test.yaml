@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  namespace: harbor
+  namespace: argocd
   name: harbor-test
 spec:
   destination:
